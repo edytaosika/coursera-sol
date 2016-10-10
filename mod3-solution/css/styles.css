@@ -35,15 +35,16 @@ body {
 	background: #ddd;
 	padding-right: 0;
 	padding-left: 0;
-	border-bottom: 1px solid #000;
+	/*border: 1px 1px 1px 0 solid #000;*/
 }
 #nav-list{
 	padding-right: 0;
 }
 #nav-list a{
 	color: #000;
-	border: 1px solid #000;
+	border-top: 1px solid #000;
 }
+
 #nav-list a:hover, #nav-list a:focus{
 	text-decoration: none;
 	background:#ccc;
